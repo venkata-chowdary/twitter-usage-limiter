@@ -1,0 +1,12 @@
+{
+    "name": "Website Usage Limiter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "webNavigation", "tabs"],
+    "background": {
+        "service_worker": "logic.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

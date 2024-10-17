@@ -1,0 +1,61 @@
+/* popup.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f6f9;
+    color: #333;
+    width: 300px;
+    height: 200px;
+}
+
+.container {
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    color: #1da1f2;
+    margin-bottom: 10px;
+}
+
+.timer, .limit-status {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+#daily-timer, #last-visit-timer {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.settings-btn {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #1da1f2;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.settings-btn:hover {
+    background-color: #1781bf;
+}
+
+footer {
+    font-size: 12px;
+    color: #999;
+    margin-top: 15px;
+}
