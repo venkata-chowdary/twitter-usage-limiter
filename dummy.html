@@ -13,3 +13,23 @@
         <footer>
             <p>&copy; 2024 Twitter Usage Tracker</p>
         </footer> -->
+
+        
+// chrome.webNavigation.onBeforeNavigate.addListener((details) => {
+    //     if (details.url.includes("https://x.com/home")) {
+    //         chrome.storage.sync.get(["timeSpent", "startTime"], (data) => {
+    //             const { timeSpent, startTime } = data
+    
+    //             const sessionDuration = Date.now() - startTime
+    
+    //             chrome.storage.sync.set({ timeSpent: timeSpent + sessionDuration, startTime: null })
+    //         })
+    //     }
+    // }, { url: [{ urlMatches: "https://x.com/home" }] })
+
+    // const minutes = Math.floor( timeSpent / (1000 * 60) );
+    // const seconds = Math.floor( (timeSpent % (1000 * 60) ) / 1000);
+    
+    // const formattedTime = `${String(minutes).padStart(2, '0')}` + `:` + `${String(seconds).padStart(2, '0')}`;
+
+    // document.getElementById('time-spent').innerText = formattedTime;
